@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GO HOME PHARMACY</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <body>
+
+        <header>
+            <nav>
+                <div class="row clearfix">
+                    <img src="gohomepharmacy.jpg" class="logo">
+                    <ul class="main-nav animated slideInDown" id="check-class">
+                        <li><a href="#medicine">MEDICINE DELIVERY</a> </li>
+                        <li><a href="#order">HOW TO ORDER</a> </li>
+                        <li><a href="#check">CHECK MORE</a> </li>
+
+                        <li><a href="#sign">SIGN UP</a> </li>
+
+
+                    </ul>
+                    <a href="#" class="mobile-icon" onclick="slideshow()">
+                    <li class="fa fa-bars"></li></a>
+                    
+
+                </div>
+            </nav>
+            <div class="main-content-header">
+            <h1>WELCOME TO <span class="colorchange">GO HOME PHARMACY</span>.<br>
+                ONLINE BASED PHARMACY
+            </h1>
+
+            <a href="#order" class="btn btn-full">Click to order</a>
+            <a href="#show" class="btn btn-nav">Contact Us</a>
+            </div>
+
+        </header>
+
+
+        <!-------Medicine Delivery section----------------------------->
+
+            <div id="medicine" class="delivery-section">
+            
+
+
+              <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 10</div>
+                  <img src="napaextend.jpg" style="width:100%">
+                  <div class="text">Napa Extend</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 10</div>
+                  <img src="azithromycin.jpg" style="width:100%">
+                  <div class="text">azithromycin</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 10</div>
+                  <img src="galvas.jpg" style="width:100%">
+                  <div class="text">Galvas met</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 10</div>
+                    <img src="diamicron.jpg" style="width:100%">
+                    <div class="text">diamicron</div>
+                  </div>
+                  <div class="mySlides fade">
+                    <div class="numbertext">5 / 10</div>
+                    <img src="tufnil.jpg" style="width:100%">
+                    <div class="text">Tufnil</div>
+                  </div>
+                  <div class="mySlides fade">
+                    <div class="numbertext">6 / 10</div>
+                    <img src="omidon.jpg" style="width:100%">
+                    <div class="text">Omidon</div>
+                  </div>
+                  <div class="mySlides fade">
+                    <div class="numbertext">7 / 10</div>
+                    <img src="exium.jpg" style="width:100%">
+                    <div class="text">Exium</div>
+                  </div>
+                  <div class="mySlides fade">
+                    <div class="numbertext">8 / 10</div>
+                    <img src="tofen.jpg" style="width:100%">
+                    <div class="text">TOFEN</div>
+
+                  </div>
+                  <div class="mySlides fade">
+                    <div class="numbertext">9 / 10</div>
+                    <img src="econate.jpg" style="width:100%">
+                    <div class="text">ECONATE</div>
+                  </div>
+                  <div class="mySlides fade">
+                    <div class="numbertext">10 / 10</div>
+                    <img src="fluzin.jpg" style="width:100%">
+                    <div class="text">FLUZIN</div>
+                  </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                  <span class="dot" onclick="currentSlide(4)"></span>
+                  <span class="dot" onclick="currentSlide(5)"></span>
+                  <span class="dot" onclick="currentSlide(6)"></span> 
+
+                  <span class="dot" onclick="currentSlide(7)"></span> 
+                  <span class="dot" onclick="currentSlide(8)"></span> 
+                  <span class="dot" onclick="currentSlide(9)"></span> 
+                  <span class="dot" onclick="currentSlide(10)"></span> 
+
+
+            
+            
+                </div>
+              
+            
+                
+            
+            </div>
+
+               
+                  </div>
+
+
+                  
+
+
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!---------------------How to order section--------------------------->
+
+<div id="order" class="order-section">
+    <h2>ORDER HERE !</h2>
+    
+
+    <div class="container">
+        <form action="#">
+          <label for="fname">Medicine Name :</label>
+          <input type="text" id="fname" name="firstname" placeholder="Medicine name..">
+      
+          <label for="lname">How Many?</label>
+          <input type="text" id="lname" name="lastname" placeholder="How Many?..">
+      
+          <label for="mg">mg :</label>
+          <select id="mg" name="mg">
+            <option value="5mg">5 mg</option>
+            <option value="10mg">10 mg</option>
+            <option value="20mg">20 mg</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write description.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+        <!---------------Check more section--------------->
+
+
+<div id="check" class="check-section">
+    <h2>ABOUT ONLINE PHARMACY</h2>
+    <div>
+    <p>An online pharmacy, internet pharmacy, or mail-order pharmacy is a pharmacy that operates over the Internet and sends orders to customers through mail, shipping companies, or online pharmacy web portal.
+
+        Online pharmacies include:
+        
+        Pharmacy benefits managers – Entities that administrate corporate prescription drug plans.
+        Legitimate Internet pharmacies in the same country as the person ordering.
+        Legitimate Internet pharmacies in a different country than the person ordering. This type of pharmacy is usually licensed by its home country and follows those regulations, not those of the international orders.
+        Illegal or unethical internet pharmacies. The web page for an illegal pharmacy may contain lies about its home country, procedures, or certifications. The "pharmacy" may send outdated (expired shelf life) or counterfeit medications and may not follow standard procedural safeguards.</p></br></br></br>
+    
+    </div>
+
+
+<div>
+        <p><span><b>HOME DELIVERY :</b></span> 
+            Conventional 'bricks and mortar' pharmacies usually have controlled drug distribution systems from the manufacturer, sufficient validation, and follow good distribution practices. Home delivery of pharmaceuticals can be a desirable convenience, but sometimes it can lead to problems with uncontrolled distribution.
+            
+            The shipment of drugs through the mail and parcel post is sometimes a concern for temperature-sensitive pharmaceuticals. Uncontrolled shipping conditions can include high and low temperatures outside the listed storage conditions for a drug. For example, the US FDA found the temperature in a mailbox in the sun could reach 136 °F (58 °C) while the ambient air temperature was 101 °F (38 °C).[1]
+            
+            Shipment by express mail and couriers reduces transit time and often involves delivery to the door, rather than a mailbox. The use of insulated shipping containers also helps control drug temperatures, reducing risks to drug safety and efficacy.</p></br></br></br>
+</div>
+
+
+
+
+
+<div>
+            <p><span><b>Risks and concerns</b></span>
+                Illegal or unethical pharmacies sometimes send outdated, substituted, or counterfeit medications to the person who ordered the drug instead of the real medication.[2][3][4][5]
+                Sometimes, an online pharmacy may not be located in a country that is claimed. For example, one study of drug shipments claiming to be from Canada revealed many of the drugs actually originated in several other countries and were often false medications.[6]
+                Minors can order controlled substances without adult supervision.
+                Other concerns include potential lack of confidentiality, improper packaging, inability to check for drug interactions, and several other issues</p></br></br></br>
+                </div>
+
+                <div>
+
+               <p> <span><b>Discussion</b></span>
+
+                Canisters containing pharmaceuticals are loaded into an automatic dispensing machine at a mail-order pharmacy.
+                Legitimate mail-order pharmacies are somewhat similar to community pharmacies; one primary difference is the method by which the medications are requested and received. Some customers consider this to be more convenient than traveling to a community drugstore, in the same way as ordering goods online rather than going to a shop.[8]
+                
+                While many Internet pharmacies sell prescription drugs only with a prescription, some do not require a written prescription, as prescriptions may not be necessary in some countries. Some customers order drugs from such pharmacies to avoid the cost and inconvenience of visiting a doctor or to obtain medications their doctors are unwilling to prescribe. People living in the United States and other countries where prescription medications are costly may turn to online pharmacies to save money. Online pharmacies in the United States are required to be approved by the National Association of Boards of Pharmacy (NABP). Many of the reputable websites employ their in-house physicians to review the medication request and write a prescription accordingly. Some websites offer medications without a prescription or a doctor review. This practice has been criticized as potentially dangerous, especially by those who feel that only doctors can reliably assess contraindications, risk/benefit, and the suitability of a medication for a specific individual.[9] Pharmacies offering medication without requiring a prescription, doctor review, or supervision are sometimes fraudulent and may supply counterfeit, ineffective, and possibly dangerous medicines.</p></br></br></br>
+                </div>
+
+                <div>
+                    <p><span><b>International consumers</b></span>
+                        Main article: Consumer import of prescription drugs
+                        International consumers sometimes purchase drugs online from online pharmacies in their own countries or those located in other countries. Some of these pharmacies require prescriptions while others do not. Of those that do not require prescriptions, some ask the customer to fill in a health questionnaire with their order. Many drugs available at legitimate online pharmacies are produced by well-known manufacturers such as Pfizer, Wyeth, Roche, and generic drug makers Cipla and Ranbaxy of India and Teva Pharmaceutical Industries of Israel. However, it remains difficult for a patient to ascertain whether an online pharmacy is legitimate. Medicines obtained from rogue online pharmacies come with no guarantees concerning their identity, history, and source. A study in three cities in the Netherlands found that over 60% of the consumed sildenafil was obtained from illegal sources.[10] Roger Bate from the American Enterprise Institute tested hundreds of prescription drug orders purchased over the Internet and discovered that properly credentialed online pharmacies, ones selling domestically and internationally, only sell lawfully-manufactured medicines</p></br></br></br>
+                </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+        <!---------------sign up section------------->
+
+<div id="sign" class="signup-section">
+    <h2>CLICK SIGN UP BUTTON TO SIGN UP HERE!</h2>
+    
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="#">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+</div>
+<!--------------this is click to order section-->
+
+<div id="click" class="clicktoorder">
+
+    
+<div class="icon-bar">
+    <a href="http://www.facebook.com/gohomepharmacy" class="facebook"><i class="fa fa-facebook"></i></a> 
+    <a href="http://www.twitter.com/gohomepharmacy" class="twitter"><i class="fa fa-twitter"></i></a> 
+    <a href="http://www.google.come/gohomepharmacy" class="google"><i class="fa fa-google"></i></a> 
+    <a href="http://www.linkedin.com/gohomepharmacy" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="http://www.youtube.com/gohomepharmacy" class="youtube"><i class="fa fa-youtube"></i></a> 
+  </div>
+  <h1>Some Medical equipment</h1>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="medical1.jpg" style="width:100%">
+      <div class="text">Medical equipment</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="medical2.jpg" style="width:100%">
+      <div class="text">Medical equipment</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 5</div>
+      <img src="medical4.jpg" style="width:100%">
+      <div class="text">Medical equipment</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="medical5.jpg" style="width:100%">
+        <div class="text">medical equipment</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="medical6.jpg" style="width:100%">
+        <div class="text">Medical equipment</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 10</div>
+        <img src="firsaid.jpg" style="width:100%">
+        <div class="text">Medical equipment</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 10</div>
+        <img src="heartbeat.jpg" style="width:100%">
+        <div class="text">Medical equipment</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">8 / 10</div>
+        <img src="virusprotection.jpg" style="width:100%">
+        <div class="text">Medical equipment</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">9 / 10</div>
+        <img src="medicalsuplies.jpg" style="width:100%">
+        <div class="text">Medicla equipment</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">10 / 10</div>
+        <img src="mri.jpg" style="width:100%">
+        <div class="text">Medicla equipment</div>
+      </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span> 
+
+      <span class="dot" onclick="currentSlide(7)"></span> 
+
+      <span class="dot" onclick="currentSlide(8)"></span> 
+
+      <span class="dot" onclick="currentSlide(9)"></span> 
+      <span class="dot" onclick="currentSlide(10)"></span> 
+
+
+
+
+    </div>
+  
+
+    
+
+</div>
+
+<!----Contact us section-->
+
+<div id="show" class="showmore-section">
+
+
+    <div class="container">
+        <div style="text-align:center">
+          <h2>Contact Us</h2>
+          <p>Swing by for a cup of coffee, or leave us a message:</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="mapgohomepharmacy.jpg" style="width:100%">
+          </div>
+          <div class="column">
+            <form action="#">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Bangladesh</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+        </div>
+      </div>
+
+    
+
+</div>
+
+
+
+
+
+
+
+</br>
+</br>
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+        <script src="index.js"></script>
+
+    </body>
+</head>
+</html>
